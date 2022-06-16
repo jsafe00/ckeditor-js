@@ -13,6 +13,14 @@
                 </textarea>
                 <script type="text/javascript">
                         CKEDITOR.replace( 'editor1' );
+
+                        $(function(){
+                                function delay(){
+                                        $("#cke_1_contents").css("height" , "800px");
+                                };
+                                window.setTimeout( delay, 1000 );
+                        });
+                       
                 </script>  
         </body>
 </html>
